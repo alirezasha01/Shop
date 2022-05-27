@@ -12,3 +12,36 @@
       url("../fonts/IRANSansX-Regular.woff") format("woff"),
       url("../fonts/IRANSansX-Regular.woff2") format("woff2");
   }
+body{
+    background: conic-gradient(#1e6e58 0% 33%, #115e52 0% 66%, #053939 0% 100%);
+}
+.container .header{
+    direction: rtl;
+}
+.container .header ul{
+    margin-top: 25px;
+}
+.container .header ul li{
+    list-style-type: none;
+    font-family: iransans ;
+    display: inline;
+    margin: 0 10px 0 10px;
+}
+.container .header ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+}
+.container .header ul li img{
+    margin: -40px 0 0 10px;
+    width: 110px;
+    height: 110px;
+    float: left;
+}
+.container .header ul li i{
+    color: white;
+}
+.ver-line{
+    padding-left: 30px;
+    border-left: 2px solid rgba(255, 255, 255,0.8);
+}
